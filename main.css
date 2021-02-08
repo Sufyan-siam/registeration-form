@@ -28,7 +28,12 @@ body{
     justify-content: center;
     align-items: center;
     color:white;
+    border-radius:30px;
     font-family: montserrat,sans-serif;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
 }
 
 form{
@@ -84,6 +89,7 @@ div{
 }
 
 button{
+    
     width:80%;
     height:40px;
     margin:5px auto;
